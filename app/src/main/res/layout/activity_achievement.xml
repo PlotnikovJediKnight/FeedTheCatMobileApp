@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity"
+    android:layout_margin="8dp"
+    android:stretchColumns="1,2">
+
+    <TableRow>
+        <TextView
+            android:text="@string/achievement_title_string"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="1"
+            />
+
+        <TextView
+            android:text="@string/achievemnt_desc_string"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="2"
+            />
+
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_achiev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</TableLayout>

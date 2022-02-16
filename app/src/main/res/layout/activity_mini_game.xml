@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiniGameActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/Lasagna"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/food_lasagna" />
+
+        <ImageView
+            android:id="@+id/Pizza"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/food_pizza" />
+
+        <ImageView
+            android:id="@+id/Shrimp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/food_shrimp" />
+
+        <ImageView
+            android:id="@+id/Medicine"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/valerian_med" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/ScoreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 0"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/TapLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to begin"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Cat1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cat_eat_one" />
+
+        <ImageView
+            android:id="@+id/Cat2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/cat_eat_two" />
+
+        <ImageView
+            android:id="@+id/Cat3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cat_eat_three" />
+
+    </LinearLayout>
+
+</RelativeLayout>

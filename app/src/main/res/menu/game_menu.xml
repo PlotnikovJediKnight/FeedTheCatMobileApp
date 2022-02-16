@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dotsItem"
+        android:icon="@drawable/ic_sharp_more_vert_24"
+        android:title="@string/dots_string"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/helpItem"
+                android:title="@string/help_string"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+</menu>
