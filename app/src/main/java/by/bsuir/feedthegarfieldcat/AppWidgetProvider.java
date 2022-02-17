@@ -18,7 +18,7 @@ public class AppWidgetProvider extends android.appwidget.AppWidgetProvider {
             long value = sharedPrefs.getLong("LAST_SCORE", 0);
             String user = sharedPrefs.getString("USER", "");
             RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.app_widget);
-            remoteViews.setTextViewText(R.id.widget_text_view, "User " + user + " just got " + value + " score!");
+            remoteViews.setTextViewText(R.id.widget_text_view, "User " + user + "\n got " + value + " score!");
             appWidgetManager.updateAppWidget(appWidgetId, remoteViews);
         }
     }

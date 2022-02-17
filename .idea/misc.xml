@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/drawable/back.xml" value="0.2055" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/drawable/ic_sharp_more_vert_24.xml" value="0.2445" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/achievement_item_layoutx.xml" value="0.15885416666666666" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/activity_achievement.xml" value="0.15885416666666666" />
@@ -16,7 +17,7 @@
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/activity_second.xml" value="0.152" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/activity_start.xml" value="0.13405797101449277" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/activity_statistics.xml" value="0.12077294685990338" />
-        <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/app_widget.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/app_widget.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/item.xml" value="0.1515625" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/layout/table_item_layout.xml" value="0.10638297872340426" />
         <entry key="..\:/AndroidProjects/FeedTheGarfieldCat/app/src/main/res/menu/game_menu.xml" value="0.1" />

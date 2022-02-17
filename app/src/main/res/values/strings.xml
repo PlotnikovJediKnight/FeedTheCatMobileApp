@@ -19,7 +19,7 @@
     <string name="cat_qoute">Когда мы с кошкой играем, еще вопрос, кто с кем играет — я с ней или она со мной.\n (Мишель Монтень)</string>
     <string name="share_result">Share my result</string>
 
-    <string name="widget_stub">User just got 0 score!</string>
+    <string name="widget_stub">User got 0 score!</string>
     <string name="greeting_string">Greetings, %1$s!</string>
     <string name="history_icon">history icon</string>
     <string name="help_string">Help</string>

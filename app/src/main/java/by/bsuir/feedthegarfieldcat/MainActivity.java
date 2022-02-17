@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         Toast.makeText(MainActivity.this, "Signed out", Toast.LENGTH_LONG).show();
-                        finish();
+                        Intent intent = new Intent(getApplicationContext(), StartActivity.class);
+                        startActivity(intent);
                     }
                 });
     }
@@ -191,5 +192,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        signOut();
     }
 }
